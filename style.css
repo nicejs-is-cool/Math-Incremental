@@ -1,0 +1,52 @@
+body {
+    background-color: chartreuse; /* For browsers do not support gradients */
+    background-image: linear-gradient(to left, chartreuse, lightgreen);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr.class1 {
+    border: 2px solid royalblue;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 45px 70px;
+    border: 5px solid yellow;
+    background-color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    background-color: orangered;
+    border-radius: 20px;
+    border: 5px solid orange;
+}
+
+.button:active {
+    border: 4px solid orange;
+}
+
+.button.tabButton {
+    padding: 15px 45px;
+    border: 5px solid yellow;
+    background-color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    transition-duration: 0.2s;
+}
+
+.button.tabButton:hover {
+    background-color: orangered;
+    border-radius: 20px;
+    border: 5px solid orange;
+}
+
+.button.tabButton:active {
+    border: 4px solid orange;
+}
