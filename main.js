@@ -38,3 +38,17 @@ function convertMath1(){
         document.getElementById("math").innerHTML = `${maths}+${math2}=0`;
     }
 }
+
+function saveGame(){
+    localStorage.setItem('maths', JSON.stringify(maths));
+    localStorage.setItem('math2', JSON.stringify(math2));
+}
+
+function loadGame(){
+    maths = JSON.parse(localStorage.getItem('maths'))
+    math2 = JSON.parse(localStorage.getItem('math2'))
+    console.log(localStorage.getItem('maths'))
+    console.log(localStorage.getItem('math2'))
+    document.getElementById("math").innerHTML = localStorage.getItem(`maths` + `math2`);
+}
+
